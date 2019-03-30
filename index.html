@@ -8,14 +8,21 @@
     <body>
         <header>
             <ul>
-                <li class="left"><a href="About.html">About</a></li>
-                <li class="left"><a href="Store.html">Store</a></li>
-                <li class="right"><a href="Gmail.html">Gmail</a></li>
-                <li class="right"><a href="Images.html">Images</a></li>
+                <div id="navright">
+                    <li class="left"><a href="About.html">About</a></li>
+                    <li class="left"><a href="Store.html">Store</a></li>
+                </div>
+                <div id="navleft">
+                    <li class="right"><a href="Gmail.html">Gmail</a></li>
+                    <li class="right"><a href="Images.html">Images</a></li>
+                </div>
             </ul>
         </header>
         <img class="centre padtop" height="92" width="272" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"> 
-        <input class="centre space" type="text" name="search-box">
+        <div id="searchbox">
+            <input class="centre space" type="text" name="search-box">
+            <img id="voice" src="https://asuar.gitlab.io/google-homepage/images/voice.png">
+        </div>
         
         <center>
             <input class="button" type="submit" name="submit" value ="Google Search">
@@ -26,12 +33,18 @@
 
 <footer>
     <ul>
-        <li class="left">Canada</li>
-        <li class="left"><a href="Advertising.html">Advertising</a></li>
-        <li class="left"><a href="Business.html">Business</a></li>
-        <li class="right"><a href="Privacy.html">Privacy</a></li>
-        <li class="right"><a href="Terms.html">Terms</a></li>
-        <li class="right"><a href="Settings.html">Settings</a></li>
+        <div id="country">
+            <li class="left">Canada</li>
+        </div>
+        <div id="footleft">
+            <li class="left"><a href="Advertising.html">Advertising</a></li>
+            <li class="left"><a href="Business.html">Business</a></li>
+        </div>
+        <div id="footright">
+            <li class="right"><a href="Privacy.html">Privacy</a></li>
+            <li class="right"><a href="Terms.html">Terms</a></li>
+            <li class="right"><a href="Settings.html">Settings</a></li>
+        </div>
     </ul>
 </footer>
 </html>

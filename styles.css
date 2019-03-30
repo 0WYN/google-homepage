@@ -85,3 +85,8 @@ footer{
     width: 100%;
     padding-top:20px;
 }
+
+#voice{
+    position: relative;
+    display: inline-block;
+}
